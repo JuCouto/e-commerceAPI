@@ -8,9 +8,14 @@
 
 ### Tecnologias utilizadas
 * API REST
-* .NET 6.0
-* EntityFrameworkCore
+* ASP.NET Core 6
+* Entity Framework Core
 * Postgres
+* AutoMapper 
+* FluentValidation
+* JWT Bearer Authentication
+* Swagger
 
-
+### Documentação:
+A API utiliza a documentação do Swagger. 
     
