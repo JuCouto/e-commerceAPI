@@ -4,18 +4,26 @@
 
 <h4 align="center"> 
 	🚧  Api em construção...  🚧
+	
 </h4>
 
-### Tecnologias utilizadas
-* API REST
-* ASP.NET Core 6
-* Entity Framework Core
-* Postgres
-* AutoMapper 
-* FluentValidation
-* JWT Bearer Authentication
-* Swagger
+#### Ainda serão iniciados:
+- [ ] Front
+- [ ] Mobile
 
+### Tecnologias utilizadas. 
+
+|   Backend                 | Frontend     | Mobile       | Banco de Dados |
+| :-----------:             | :----------: |:----------:  |:----------:    |
+| ASP.NET Core 6            |              |              | Postgres       |
+| C#                        |              |              |                |
+| API REST                  |              |              |                |
+| Entity Framework Core     |              |              |                |
+| Auto Mapper               |              |              |                |
+| Fluent Validation         |              |              |                |
+| JWT Bearer Authentication |              |              |                |
+
+ 
 ### Documentação:
 A API utiliza a documentação do Swagger. 
     
