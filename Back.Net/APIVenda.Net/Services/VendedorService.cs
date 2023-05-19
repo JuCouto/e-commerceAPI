@@ -59,11 +59,11 @@ public class VendedorService : IVendedorService
 
         var vendedor = await _vendedorRepository.GetByIdAsync(vendedorDto.Id);
         if (vendedor == null)
-            return ResultService.Fail("Produto não encontrado!");
+            return ResultService.Fail("Vendedor não encontrado!");
 
         vendedor = _mapper.Map(vendedorDto, vendedor);
         await _vendedorRepository.EditAsync(vendedor);
-        return ResultService.Ok("Produto Editado com sucesso!");
+        return ResultService.Ok("Vendedor Editado com sucesso!");
     }
 
     public async Task<ResultService> RemoveAsync(Guid id)
