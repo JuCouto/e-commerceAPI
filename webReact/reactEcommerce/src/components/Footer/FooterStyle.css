@@ -1,0 +1,15 @@
+@import url('./../../css/css-config/colors.css');
+
+#footer {
+    background-color: var(--cor-fundo-secundaria);
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #363636;
+  }
+
+.texto-footer{
+    color:var(--cor-fonte-secundaria);
+}

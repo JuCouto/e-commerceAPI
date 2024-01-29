@@ -8,14 +8,101 @@
     justify-content: center;
     flex-direction: column;
 }
-/* .container .header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 30px;
-    margin-top: 15px;
-} */
 
+.App{
+    min-height: 80vh;
+}
+
+form{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form a{
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 7px;
+    color: var(--lilas-secundario);
+    
+ }
+
+ #inputContainer{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.inputContainer label{
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+
+.inputContainer input{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 15px;
+    width: 320px;
+    height: 54px;
+    color: var(--branco);
+        
+    background:var(--lilas-primario);
+    border: 3px solid var(--azul-marinho-primario);
+    border-radius: 10px;
+}
+
+/* chrome */
+::-webkit-input-placeholder {
+    color: var(--branco);
+    opacity: 50%;
+    text-align: center;
+ }
+
+ /* Firefox 18- */
+ :-moz-placeholder {
+    color: var(--branco);
+    opacity: 50%;
+    text-align: center;
+ }
+
+ /* Firefox 19+ */
+ ::-moz-placeholder {
+    color: var(--branco);
+    opacity: 50%;
+    text-align: center;
+ }
+
+ :-ms-input-placeholder {  
+    color: var(--branco);
+    opacity: 50%;
+    text-align: center;
+ }
+
+
+ .button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 180px;
+    height: 35px;
+    align-items: center;
+    margin-top: 10px;
+    color: var(--branco);
+    background-color: var(--lilas-primario);
+    border: 2px solid var(--azul-marinho-primario);
+    border-radius: 7px;
+ }
+
+.button:hover{
+   cursor:pointer;
+   color: var(--lilas-secundario);
+ }
 html, body {
     background-color: var(--cor-fundo) !important;
     color: var(--cor-fonte-principal) !important;

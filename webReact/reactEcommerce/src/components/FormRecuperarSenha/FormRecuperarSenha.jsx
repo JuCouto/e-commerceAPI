@@ -1,31 +1,33 @@
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
+import "./FormRecuperarSenhaStyles.css"
+import Swal from 'sweetalert2';
 
 export function FormRecuperarSenha(){
     
     function emailEnviado(){
-        alert('E-mail enviado');
+        Swal.fire(
+            'E-mail enviado!',
+            'Um E-mail foi enviado para redefinir sua senha!',
+            'success'
+          )
       }
 
     return(
         
         <div>
-        <form>
-        <div className="inputContainer">
+        <form className="inputContainer">
+        <div >
           <label htmlFor='email'>E-mail</label>
           <input 
           type="text"
            name="email" 
            placeholder="email@email.com.br"/>
         </div>        
-
-        <button className="button"
-        onClick={emailEnviado()}
-        >
+        </form>
+        <button  className="button"
+                 onClick={emailEnviado}>
           Enviar
         </button>
-
-        
-      </form>
       </div>
         
     )
