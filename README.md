@@ -28,7 +28,7 @@
 | :-----------:             | :----------: |:----------:  |:----------:    |
 | ASP.NET Core 6            | ReactJs      |              | Postgres       |
 | C#                        | Vite         |              |                |
-| API REST                  |              |              |                |
+| API REST                  | Redux        |              |                |
 | Entity Framework Core     |              |              |                |
 | Auto Mapper               |              |              |                |
 | Fluent Validation         |              |              |                |
