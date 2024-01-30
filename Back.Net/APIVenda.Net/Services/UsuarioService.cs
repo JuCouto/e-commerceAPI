@@ -64,7 +64,7 @@ public class UsuarioService : IUsuarioService
             .Select(s => s[new Random().Next(s.Length)]).ToArray());
 
         // encriptando a senha
-        usuarioDto.Password = BCrypt.Net.BCrypt.HashPassword(newPassword);
+       // usuarioDto.Password = BCrypt.Net.BCrypt.HashPassword(newPassword);
 
         if (usuarioDto == null)
             return ResultService.Fail<UsuarioResponseDto>("Objeto deve ser informado");
@@ -85,7 +85,7 @@ public class UsuarioService : IUsuarioService
         var usuario = _mapper.Map<Usuario>(usuarioDto); // criação
         var data = await _usuarioRepository.CreateAsync(usuario);
 
-        usuarioDto.Password = newPassword;
+       // usuarioDto.Password = newPassword;
        // BuildAndSendEmail(userDto);
 
         return ResultService.Ok(_mapper.Map<UsuarioResponseDto>(data));

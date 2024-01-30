@@ -1,0 +1,23 @@
+.texto-cadastro{
+   font-size: 40px;
+   line-height: 45px;
+   font-weight: 500;
+   display:flex;
+   text-align: center;   
+   color: var(--branco)
+}
+
+/* button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 180px;
+    height: 35px;
+    align-items: center;
+    margin-top: 10px;
+    color: var(--branco);
+    background-color: var(--lilas-primario);
+    border: 2px solid var(--azul-marinho-primario);
+    border-radius: 7px;
+    
+ } */

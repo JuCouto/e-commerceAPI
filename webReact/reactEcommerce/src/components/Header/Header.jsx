@@ -5,8 +5,8 @@ import './HeaderStyle.css';
 export function Header(){
     return(
         <>
-        <header className='header'>
-          <Link to="/"><img src={logo} alt="logo" /></Link>
+        <header className='container-header'>
+          <Link to="/"><img className='imagem-logo' src={logo} alt="logo" /></Link>
        </header>
        </>
     )

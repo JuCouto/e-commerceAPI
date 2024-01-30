@@ -5,9 +5,9 @@ import './RecuperarSenhaStyle.css'
 export function RecuperarSenha(){
     return(
         <>
+            <div className="container-recuperar-senha">
          <Header/>
-            <div className="container-recuperarSenha">
-               <h1  >Olá! <br/> Digite abaixo seu <br/> E-mail  cadastrado</h1>
+               <h1 className="texto-recuperar-senha" >Olá! <br/> Digite abaixo seu <br/> E-mail  cadastrado</h1>
                <FormRecuperarSenha/>  
             </div>               
         </>

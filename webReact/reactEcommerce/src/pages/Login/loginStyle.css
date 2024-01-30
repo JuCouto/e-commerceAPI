@@ -6,13 +6,13 @@
     align-items: center;
     flex-direction: column;
     border-radius: 100px  200px  100px  200px;
-    width: 63vh;
-    height: 63vh;
-    margin:0;
-    margin-bottom: 25px;
+    width: 540px;
+    height: 500px;
+    margin-top:10rem;
+    margin-bottom: 5rem;
 }
 
-h1{
+.texto-login{
     font-size: 40px;
     line-height: 45px;
     font-weight: 500;
